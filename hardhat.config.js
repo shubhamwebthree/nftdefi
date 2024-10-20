@@ -7,7 +7,7 @@ module.exports = {
     sepolia: {
       url: process.env.API_URL,
       accounts: [process.env.PRIVATE_KEY],
-      timeout: 2000000 
+      // timeout: 2000000 
     },
   },
 };
